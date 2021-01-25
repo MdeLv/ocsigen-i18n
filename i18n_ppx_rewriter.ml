@@ -76,7 +76,7 @@ let apply module_name_o expr e i args =
 let options_spec =
   ["--prefix", Arg.Set_string module_prefix, "The prefix added to module names"
   ;"--suffix", Arg.Set_string module_suffix, "The suffix added to module names"
-  ;"--default-module", Arg.Set_string default_module_name, "Description: to be completed by ocsigen team>"]
+  ;"--default-language", Arg.Set_string default_module_name, "Description: to be completed by ocsigen team>"]
   
 let _ =
   register "i18n" (fun argv ->
